@@ -1,0 +1,10 @@
+2023-11-21 14:01:44,820 INFO An INFO
+2023-11-21 14:01:44,820 WARNING A WARNING
+2023-11-21 14:01:44,820 ERROR An ERROR
+2023-11-21 14:01:44,820 CRITICAL A message of CRITICAL severity
+2023-11-21 14:01:44,820 INFO Значения x и y - 1 и 1.
+2023-11-21 14:01:44,820 ERROR TypeError, значение не соответствует типу данных
+Traceback (most recent call last):
+  File "/home/nepogoda/PycharmProject/PY_50/except_py_50.py", line 35, in <module>
+    a = x + y
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
